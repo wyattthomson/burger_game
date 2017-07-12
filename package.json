@@ -1,16 +1,8 @@
 {
-  "name": "burger_game",
+  "name": "burger",
   "version": "1.0.0",
   "description": "- www.example.com ## Description on how to use the app In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use  ## Requirements App Setup",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.8",
-    "mysql": "^2.13.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -19,10 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/wyattthomson/burger_game.git"
   },
-  "author": "",
+  "author": "Wyatt Thomson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wyattthomson/burger_game/issues"
   },
-  "homepage": "https://github.com/wyattthomson/burger_game#readme"
+  "homepage": "https://github.com/wyattthomson/burger_game#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0"
+  }
 }
