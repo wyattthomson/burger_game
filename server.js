@@ -15,12 +15,12 @@ app.engine("handlebars", exphbs({defaultLayout:"main"}));
 app.set("view engine", "handlebars");
 
 // routing
-var routes = require("./controllers/burgers_controller.js");
+var routes = require("./controllers/burgersControllers.js");
 app.use("/", routes);
 app.use("/update", routes);
 app.use("create", routes);
 app.use("create", routes);
 
 app.listen(PORT, function() {
-	console.log("Listening on port 2000")
+	console.log("Listening on port 2000");
 })
